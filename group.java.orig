@@ -1,3 +1,21 @@
+<<<<<<< HEAD
+import java.util.*;
+
+public String getJoshName()
+{
+	return "Joshua Rockamore";
+}
+
+public String getGroupMembers() {
+	String[] names = new String[4];
+	names[0] = getJoshName();
+
+
+	return names;
+=======
+package lol.whocares.projectjust2test;
+
+
 public class group
 {
     
@@ -66,4 +84,5 @@ public class group
 		}
 		
 	}
+>>>>>>> joshfile
 }
