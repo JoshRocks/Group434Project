@@ -23,7 +23,6 @@ public class group
 		for(int x = 0; x < num2; x++)
 		{
 			result = result + num1;
-                        //System.out.println(result);
 		}
             return result;
 	}
