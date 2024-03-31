@@ -1,12 +1,15 @@
+import java.util.*;
 
-
-String getJoshName()
+public String getJoshName()
 {
-	return "Joshua Rockamore"
+	return "Joshua Rockamore";
 }
 
-String getGroupMembers()
+public String getGroupMembers()
 {
-	
-	return
+	String[] names = new String[4];
+	names[0] = getJoshName();
+
+
+	return names;
 }
