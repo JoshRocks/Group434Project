@@ -9,9 +9,15 @@ public class group
 		return "Joshua Rockamore";
 	}
 
+	private String getShadiyaThomas()
+	{
+		return "Shadiya Thomas";
+	}
+
 	public String getGroupMembers() {
 		String names = "";
 		names = names + getJoshName() + "\n";
+		names = names + getShadiyaThomas() + "\n";
                 //Add Your name methods here
 
 		return names;
