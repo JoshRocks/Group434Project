@@ -1,7 +1,8 @@
-public class group
+package hey.soulsister.group;
+public class Group
 {
     
-        public group()
+        public Group()
         {}
     
 	private String getJoshName()
@@ -15,7 +16,11 @@ public class group
 	}
 	private String getDjordjeMarinkovic()
 	{
+<<<<<<< HEAD:group.java
 		return "Djordje Marinkovic"
+=======
+		return "Djordje Marinkovic";
+>>>>>>> joshfile:Project434/src/main/java/hey/soulsister/group/Group.java
 	}
 
 	public String getGroupMembers() {
