@@ -16,11 +16,7 @@ public class Group
 	}
 	private String getDjordjeMarinkovic()
 	{
-<<<<<<< HEAD:group.java
-		return "Djordje Marinkovic"
-=======
 		return "Djordje Marinkovic";
->>>>>>> joshfile:Project434/src/main/java/hey/soulsister/group/Group.java
 	}
 
 	public String getGroupMembers() {
