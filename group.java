@@ -13,11 +13,16 @@ public class group
 	{
 		return "Shadiya Thomas";
 	}
+	private String getDjordjeMarinkovic()
+	{
+		return "Djordje Marinkovic"
+	}
 
 	public String getGroupMembers() {
 		String names = "";
 		names = names + getJoshName() + "\n";
 		names = names + getShadiyaThomas() + "\n";
+		names = names + getDjordjeMarinkovic() + "\n";
                 //Add Your name methods here
 
 		return names;
