@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: hey.soulsister.group.GroupTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s -- in hey.soulsister.group.GroupTest
