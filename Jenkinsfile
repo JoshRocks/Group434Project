@@ -5,13 +5,13 @@ pipeline {
     stages {
         stage('build') {
             steps {
-				sh 'mvn --version'
+				bat 'mvn --version'
 			}
         }
 		
 		stage('Test') {
             steps {
-                sh 'mvn test'
+                bat 'mvn test'
             }
             post {
                 always {
